@@ -14,5 +14,6 @@
 #Function that collect user inputs
 def myUser_func(fName):
     return "Hello " + fName
+
 greet = myUser_func(input("Enter your name: "))
 print(greet)
