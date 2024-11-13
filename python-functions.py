@@ -4,7 +4,9 @@
 # func_name()
 
 #Passing of arguments and parameters in Python
-def my_func(fName):
-    print(fName + " it's awesome")
+lName = "Kimanthi"
+def my_func(fName, age):
+    #print(fName + " it's awesome")
+    print(f"{fName} It's awesome and age is {age}")
 
-my_func("Vincent")
+my_func("Vincent", 20)
